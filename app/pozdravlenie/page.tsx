@@ -58,7 +58,7 @@ const Pozdravlenie = () => {
       <Image
         width={10}
         height={150}
-        src={"/sima/image/arrow.svg"}
+        src={"/birthday/image/arrow.svg"}
         alt="arrow"
         className="mx-auto mt-[170px]"
       />
@@ -96,7 +96,7 @@ const Pozdravlenie = () => {
               if (code == "торт") {
                 push("/podarok");
               } else {
-                alert('Не правильный код :с')
+                alert("Не правильный код :с");
               }
             }}
             className=" p-[20px] rounded-fulltext-2xl shadow-2xl bg-[#22211F] duration-200 flex gap-5 items-center cursor-pointer rounded-[20px] justify-center disabled:opacity-50"

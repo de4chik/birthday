@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   output: "export",
   distDir: "out",
 
-  basePath: "/sima",
+  basePath: "/birthday",
 
   images: {
     unoptimized: true,

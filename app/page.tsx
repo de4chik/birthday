@@ -27,7 +27,7 @@ export default function Home() {
             className="absolute top-10 left-52"
           >
             <Image
-              src={"/sima/image/halpushka.png"}
+              src={"/birthday/image/halpushka.png"}
               alt=""
               width={160}
               height={160}
@@ -38,7 +38,12 @@ export default function Home() {
             factorY={0.5}
             className="absolute -bottom-10 left-60"
           >
-            <Image src={"/sima/image/gift.png"} alt="" width={160} height={160} />
+            <Image
+              src={"/birthday/image/gift.png"}
+              alt=""
+              width={160}
+              height={160}
+            />
           </MouseParallaxChild>
 
           <MouseParallaxChild
@@ -47,14 +52,24 @@ export default function Home() {
             inverted={true}
             className="absolute top-10 right-96 -z-10"
           >
-            <Image src={"/sima/image/pizza.png"} alt="" width={160} height={160} />
+            <Image
+              src={"/birthday/image/pizza.png"}
+              alt=""
+              width={160}
+              height={160}
+            />
           </MouseParallaxChild>
           <Link
             href={"/pozdravlenie"}
             className="bg-[#F26060] p-[40px] rounded-full absolute top-1/2 left-1/2 -translate-1/2 text-5xl shadow-2xl hover:bg-[#ff8282] duration-200 flex gap-5 items-center cursor-pointer"
           >
             Нажми
-            <Image src={"/sima/image/stars.png"} alt="" width={160} height={160} />
+            <Image
+              src={"/birthday/image/stars.png"}
+              alt=""
+              width={160}
+              height={160}
+            />
           </Link>
         </div>
       </div>
