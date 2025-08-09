@@ -61,7 +61,7 @@ export default function Home() {
           </MouseParallaxChild>
           <Link
             href={"/pozdravlenie"}
-            className="bg-[#F26060] p-[40px] rounded-full absolute top-1/2 left-1/2 -translate-1/2 text-5xl shadow-2xl hover:bg-[#ff8282] duration-200 flex gap-5 items-center cursor-pointer"
+            className="bg-[#F26060] p-[40px] rounded-full absolute top-1/2 left-1/2 -translate-1/2 text-5xl shadow-2xl hover:bg-[#ff8282] duration-200 flex gap-5 items-center cursor-pointer font-montserrat font-black text-[#22211F]"
           >
             Нажми
             <Image

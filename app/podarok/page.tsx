@@ -35,7 +35,7 @@ const Podarok = () => {
     <section className="flex justify-center items-center flex-col h-screen gap-10  font-montserrat ">
       <div
         ref={divRef}
-        className="w-5xl aspect-video bg-amber-200 bg-[url('/birthday/image/shtrih.jpg')] bg-no-repeat bg-cover bg-center"
+        className="w-5xl aspect-video bg-amber-200 bg-[url('/birthday/image/shtrih.jpg')] bg-no-repeat bg-cover bg-center rounded-2xl"
       ></div>
       <p className="text-5xl font-black">
         Можете получить подарок в ПВЗ озон в вашем доме!

@@ -17,7 +17,6 @@ const Pozdravlenie = () => {
     const interval = setInterval(() => {
       setActiveIndex((prevIndex) => (prevIndex < 3 ? prevIndex + 1 : 0));
     }, 3000);
-    console.log(activeIndex);
 
     return () => clearInterval(interval);
   }, []);
